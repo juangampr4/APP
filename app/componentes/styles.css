@@ -1,0 +1,61 @@
+/* Estilo base para todos los clusters */
+.marker-cluster {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+  border-radius: 100%;
+  text-align: center;
+  padding: 0.5px;
+}
+
+.marker-cluster:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Clusters pequeños: azul brillante */
+.marker-cluster-small {
+  background: radial-gradient(circle at center, #3b82f6, #1e40af); /* blue-500 to blue-900 */
+  color: #fff;
+  border: 2px solid white;
+  font-weight: 600;
+}
+
+/* Clusters medianos: naranja cálido */
+.marker-cluster-medium {
+  background: radial-gradient(circle at center, #facc15, #f59e0b); /* yellow-400 to amber-500 */
+  color: #1f2937; /* gray-800 */
+  border: 2px solid white;
+  font-weight: 600;
+}
+
+/* Clusters grandes: rojo vibrante */
+.marker-cluster-large {
+  background: radial-gradient(circle at center, #ef4444, #991b1b); /* red-500 to red-900 */
+  color: #fff;
+  border: 2px solid white;
+  font-weight: 600;
+}
+
+/* Contenido del número del cluster */
+.marker-cluster div {
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 600;
+
+  padding: 0;
+  margin: 0;
+
+  line-height: 1; /* importante: evita el desbalance vertical */
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: -3px;
+  right: 5px;
+}
