@@ -11,6 +11,33 @@ import { useState,useEffect } from "react";
 import 'leaflet/dist/leaflet.css';
 import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
+const css = `
+      .marker-cluster-small {
+        background-color: #2563eb !important;
+        color: white !important;
+        font-weight: bold;
+        border: 2px solid white;
+      }
+      .marker-cluster-medium {
+        background-color: #facc15 !important;
+        color: black !important;
+        font-weight: bold;
+        border: 2px solid white;
+      }
+      .marker-cluster-large {
+        background-color: #ef4444 !important;
+        color: white !important;
+        font-weight: bold;
+        border: 2px solid white;
+      }
+      .marker-cluster div {
+        font-size: 16px !important;
+      }
+    `;
+ const style = document.createElement('style');
+    style.innerHTML = css;
+    document.head.appendChild(style);
+  }, []);
 function Mostrar({data}) {
     return (
         <>
