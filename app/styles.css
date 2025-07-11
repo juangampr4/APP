@@ -1,15 +1,24 @@
 .marker-cluster-small {
-  @apply bg-blue-500 text-white font-bold border-2 border-white;
+  background-color: #2563eb !important; /* azul */
+  color: white !important;
+  border: 2px solid white;
+  font-weight: bold;
 }
 
 .marker-cluster-medium {
-  @apply bg-yellow-400 text-black font-bold border-2 border-white;
+  background-color: #facc15 !important; /* amarillo */
+  color: black !important;
+  border: 2px solid white;
+  font-weight: bold;
 }
 
 .marker-cluster-large {
-  @apply bg-red-500 text-white font-bold border-2 border-white;
+  background-color: #ef4444 !important; /* rojo */
+  color: white !important;
+  border: 2px solid white;
+  font-weight: bold;
 }
 
 .marker-cluster div {
-  @apply text-base;
+  font-size: 16px !important;
 }
