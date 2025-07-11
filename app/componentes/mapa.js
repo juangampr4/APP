@@ -1,6 +1,8 @@
 "use client"
 import {MapContainer, TileLayer, Popup, Marker, LayersControl, LayerGroup} from 'react-leaflet'
-import MarkerClusterGroup from "react-leaflet-markercluster"
+import MarkerClusterGroup from "react-leaflet-markercluster";
+import 'leaflet.markercluster/dist/MarkerCluster.css';
+import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 import { useState,useEffect } from "react";
 import 'leaflet/dist/leaflet.css';
 import "leaflet-defaulticon-compatibility";
