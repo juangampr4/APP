@@ -5,7 +5,6 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import "react-leaflet-markercluster/dist/styles.min.css";
 import './styles.css';
-import "./styles.css";
 import { useState,useEffect } from "react";
 import 'leaflet/dist/leaflet.css';
 import "leaflet-defaulticon-compatibility";
