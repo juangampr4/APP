@@ -3,8 +3,7 @@ import {MapContainer, TileLayer, Popup, Marker, LayersControl, LayerGroup} from 
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import 'leaflet.markercluster/dist/MarkerCluster.css';
-import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+import "react-leaflet-markercluster/dist/styles.min.css";
 import './styles.css';
 import "./styles.css";
 import { useState,useEffect } from "react";
