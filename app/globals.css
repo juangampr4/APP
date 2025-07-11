@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.marker-cluster-small {
+  background-color: rgba(0, 100, 255, 0.6) !important;
+  color: white;
+  border: 2px solid #0044cc;
+}
+
+.marker-cluster-medium {
+  background-color: rgba(255, 165, 0, 0.7) !important;
+  border: 2px solid orange;
+}
+
+.marker-cluster-large {
+  background-color: rgba(255, 0, 0, 0.7) !important;
+  border: 2px solid red;
+}
+
+.marker-cluster div {
+  font-size: 16px;
+  font-weight: bold;
+}
